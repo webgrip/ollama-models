@@ -1,0 +1,2 @@
+FROM /etc/models/llama-3-dare-Q8_0.gguf
+TEMPLATE "[INST] {{ .Prompt }} [/INST]"
